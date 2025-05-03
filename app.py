@@ -47,7 +47,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Sidebar Logo
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("logo.png", use_container_width=True)
+
 st.sidebar.markdown("### 🤖 Car Price AI\n##### By Prince Sirohi")
 
 # Load model
