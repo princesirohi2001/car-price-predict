@@ -1,4 +1,3 @@
-from sklearn.linear_model import LinearRegression
 import pandas as pd
 import pickle as pk
 import streamlit as st
